@@ -1,12 +1,12 @@
-🐍 Python: Variáveis 
+🐍 Python: Variables
 
-📋 Checklist de Estudos
-• Declaração: Criar variáveis de diferentes tipos (`int`, `float`, `str`, `bool`).
+📋 Study Checklist
+• Declaration: Creating variables of different types (`int`, `float`, `str`, `bool`).
 
-• Nomenclatura: Aplicar as regras de `snake_case`.
+• Naming Conventions: Applying snake case rules.
 
-• Operações: Testar soma, subtração, multiplicação e divisão.
+• Operations: Testing addition, subtraction, multiplication, and division.
 
-• Casting: Converter tipos usando `int()`, `float()` e `str()`.
+• Casting: Type converters using `int()`, `float()`, and `str()`.
 
-• Interação: Usar `input()` para receber dados e exibir com `print()`.
+• Interaction: Using `input()` to receive data and displaying it with `print()`.
