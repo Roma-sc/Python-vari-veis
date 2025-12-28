@@ -1,0 +1,10 @@
+a1  = int(input("Digite a Primeira nota do aluno:  "))
+a2  = int(input("Digite a Segunda nota do aluno:  "))
+media = (a1 + a2) / 2
+Print("A média do aluno é:  ", media)
+if media >= 7:
+	print("Aluno Aprovado")
+elif media >= 5 and media < 7:
+	print("Aluno em Recuperação")
+else:
+	print("Aluno Reprovado")

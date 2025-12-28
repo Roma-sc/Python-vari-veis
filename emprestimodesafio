@@ -1,0 +1,12 @@
+Casa = int(input("Qual o valor da casa que deseja finançiar?"))
+Salario = int(input("Qual o seu salário?"))
+Anos = int(input("Em quantos anos você deseja pagar?"))
+Prestação = Casa/(Anos*12)
+minímo = Salario*0.3
+print("Para pagar uma casa de R${} em {} anos, a prestação será de R${:.2f}".format(
+    Casa, Anos, Prestação))
+print("A prestação mensal será de R${:.2f}".format(Prestação))
+if Prestação > Salario*0.3:
+    print("Empréstimo negado!")
+else:
+    print("Empréstimo aprovado!")
